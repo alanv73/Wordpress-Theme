@@ -1039,9 +1039,11 @@ object {
 --------------------------------------------------------------*/
 .content-area {
 	float: left;
+	max-width: 75%;
 }
 
 .widget-area {
 	float: left;
-	width: 25%;
+	margin-left: 25px;
+	width: 20%;
 }
