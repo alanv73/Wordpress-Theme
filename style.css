@@ -1033,3 +1033,15 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+## Sidebar
+--------------------------------------------------------------*/
+.content-area {
+	float: left;
+}
+
+.widget-area {
+	float: left;
+	width: 25%;
+}
