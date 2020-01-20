@@ -1048,5 +1048,7 @@ input[type=search].search-field {
 }
 
 .content-area {
+	float: left;
+	max-width: 80%;
 	padding: 25px;
 }
