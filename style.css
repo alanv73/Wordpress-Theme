@@ -1037,13 +1037,16 @@ object {
 /*--------------------------------------------------------------
 ## Sidebar
 --------------------------------------------------------------*/
-.content-area {
-	float: left;
-	max-width: 75%;
+.widget-area {
+	float: right;
+	padding: 15px;
+	max-width: 20%;
 }
 
-.widget-area {
-	float: left;
-	margin-left: 25px;
-	width: 20%;
+input[type=search].search-field {
+	max-width: 100%;
+}
+
+.content-area {
+	padding: 25px;
 }
