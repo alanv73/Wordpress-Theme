@@ -1040,7 +1040,7 @@ object {
 .widget-area {
 	float: right;
 	padding: 50px 15px 0px;
-	max-width: 25%;
+	width: 25%;
 }
 
 input[type=search].search-field {
@@ -1049,6 +1049,6 @@ input[type=search].search-field {
 
 .content-area {
 	float: left;
-	max-width: 75%;
+	width: 75%;
 	padding: 25px;
 }
