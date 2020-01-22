@@ -21,7 +21,9 @@ get_header();
 				<div class="page-content">
 					<img id="hhgimg" src="wp-content/themes/Wordpress-Theme/assets/images/hhg.png" alt="">
 					<img id="panicimg" src="wp-content/themes/Wordpress-Theme/assets/images/panic2.png" alt="">
-					<p><?php esc_html_e( 'Maybe you can hitch a ride on one of the links below<br/>or check the Guide using our convenient search box', 'uppercase' ); ?></p>
+					<p><?php esc_html_e( 'Maybe you can hitch a ride on one of the links below', 'uppercase' );
+					echo '<br/>';
+					esc_html_e( 'or check the Guide using our convenient search box', 'uppercase' ); ?></p>
 
 					<?php
 					get_search_form();
