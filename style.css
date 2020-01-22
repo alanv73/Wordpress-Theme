@@ -1052,3 +1052,31 @@ input[type=search].search-field {
 	width: 75%;
 	padding: 25px;
 }
+
+/*--------------------------------------------------------------
+## 404.php
+--------------------------------------------------------------*/
+#panicimg {
+	width: 600px;
+	display: block;
+	margin: auto;
+}
+
+#hhgimg {
+	width: 100px;
+	display: block;
+	margin: auto;
+}
+
+#hitch {
+	display: block;
+	margin: auto;
+}
+
+.not-found {
+	text-align: center;
+}
+
+.widget {
+	text-align: left;
+}
