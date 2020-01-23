@@ -19,8 +19,8 @@ get_header();
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<img id="panicimg" src="/avanart58/wordpress/wp-content/themes/Wordpress-Theme/assets/images/panic2.png" alt="">
-					<img id="hhgimg" src="/avanart58/wordpress/wp-content/themes/Wordpress-Theme/assets/images/hhg.png" alt="">
+					<img id="panicimg" src="<?php bloginfo('template_directory'); ?>/assets/images/panic2.png" alt="">
+					<img id="hhgimg" src="<?php bloginfo('template_directory'); ?>/assets/images/hhg.png" alt="">
 					<p><?php esc_html_e( 'Maybe you can hitch a ride on one of the links below', 'uppercase' );
 					echo '<br/>';
 					esc_html_e( 'or check the Guide using our convenient search box', 'uppercase' ); ?></p>
