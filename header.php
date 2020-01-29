@@ -54,6 +54,7 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
 		<!-- header image -->
 		<?php if ( get_header_image() ) : ?>
 			<!-- <div id="site-header"> -->
@@ -63,6 +64,5 @@
 			<!-- </div> -->
 		<?php endif; ?>
 		<!-- header image -->
-	</header><!-- #masthead -->
 	</div>
 	<div id="content" class="site-content">
