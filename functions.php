@@ -147,7 +147,7 @@ function uppercase_custom_header_setup() {
 		"flex-width"			=> true,
 		"flex-height"			=> true
 	)
-	add_theme_support("custom-header", $args);
+	// add_theme_support("custom-header", $args);
 }
 add_action("after_setup_theme", "uppercase_custom_header_setup");
 
