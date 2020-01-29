@@ -138,7 +138,7 @@ add_action( 'wp_enqueue_scripts', 'uppercase_scripts' );
 /**
  * Custom Header
  */
-function themename_custom_header_setup() {
+function uppercase_custom_header_setup() {
     $args = array(
         'default-image'      => get_template_directory_uri() . 'assets/images/default-image.jpg',
         'default-text-color' => '000',
@@ -146,8 +146,8 @@ function themename_custom_header_setup() {
         'height'             => 250,
         'flex-width'         => true,
         'flex-height'        => true,
-    )
-    add_theme_support( 'custom-header', $args );
+	)
+	add_theme_support( 'custom-header', $args );
 }
 add_action( 'after_setup_theme', 'themename_custom_header_setup' );
 
