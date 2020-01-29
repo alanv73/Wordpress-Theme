@@ -84,6 +84,14 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
 
 		// add theme support for custom header
+		register_default_headers( array(
+			'default-image' => array(
+				'url'           => '%s/assets/images/default-image.jpg',
+				'thumbnail_url' => '%s/images/headers/default-thumbnail.jpg',
+				'description'   => __( 'default-image', 'uppercase' )
+			)
+		) );
+
 		add_theme_support( 'custom-header', array(
 			"default-image"			=> get_template_directory_uri() . "assets/images/default-image.jpg",
 			"default-text-color"	=> "000",
