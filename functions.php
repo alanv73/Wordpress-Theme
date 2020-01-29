@@ -87,7 +87,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		register_default_headers( array(
 			'default-image' => array(
 				'url'           => '%s/assets/images/default-image.jpg',
-				'thumbnail_url' => '%s/images/headers/default-thumbnail.jpg',
+				'thumbnail_url' => '%s/assets/images/default-thumbnail.jpg',
 				'description'   => __( 'default-image', 'uppercase' )
 			)
 		) );
