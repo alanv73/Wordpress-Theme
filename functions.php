@@ -93,7 +93,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		) );
 
 		add_theme_support( 'custom-header', array(
-			"default-image"			=> get_template_directory_uri() . "assets/images/default-image.jpg",
+			"default-image"			=> get_template_directory_uri() . "/assets/images/default-image.jpg",
 			"default-text-color"	=> "000",
 			"width"					=> 1000,
 			"height"				=> 250,
