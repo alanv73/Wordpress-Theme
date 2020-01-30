@@ -1094,6 +1094,7 @@ input[type=search].search-field {
 	background: rgba(0, 0, 0, 0.4);
 	color: white;
 	z-index: 1;
+	height: 100%;
 }
 
 #site-header {
@@ -1101,6 +1102,27 @@ input[type=search].search-field {
 	top: 0;
 }
 
+#header-content a {
+	color: orangered;
+}
+
+#header-content a:hover {
+	color: orange;
+}
+
 #content {
 	position: relative;
+}
+
+#header-content{
+	height: 325px;
+}
+
+#site-navigation {	
+	position: absolute;
+	bottom: 0;
+}
+
+.site-branding {
+	text-align: center
 }
