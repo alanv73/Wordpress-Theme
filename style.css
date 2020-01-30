@@ -1128,3 +1128,15 @@ input[type=search].search-field {
 	margin-top: 9%;
 	text-align: center;
 }
+
+@media screen and (max-width: 980px) {
+	#header-content {
+		height: 35vh;
+	}
+}
+
+@media screen and (min-width: 1180px) {
+	#header-content {
+		height: 50vh;
+	}
+}
