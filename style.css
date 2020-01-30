@@ -1091,7 +1091,7 @@ input[type=search].search-field {
 
 #masthead {
 	position: relative;
-	background: rgba(0, 0, 0, 0.4);
+	/*background: rgba(0, 0, 0, 0.4);*/
 	color: white;
 	z-index: 1;
 	height: 100%;
@@ -1099,6 +1099,7 @@ input[type=search].search-field {
 
 #site-header {
 	position: absolute;
+	filter: brightness(75%);
 	top: 0;
 }
 
@@ -1120,9 +1121,9 @@ input[type=search].search-field {
 
 #site-navigation {	
 	position: absolute;
-	bottom: 0;
+	top: 0;
 }
 
 .site-branding {
-	text-align: center
+	text-align: center;
 }

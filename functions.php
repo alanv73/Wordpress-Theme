@@ -97,9 +97,9 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 			'default-image'			=> get_template_directory_uri() . '/assets/images/default-image.jpg',
 			'default-text-color'	=> '000',
 			'width'					=> 1280,
-			'height'				=> 320,
+			'height'				=> 200,
 			'flex-width'			=> true,
-			'flex-height'			=> true
+			'flex-height'			=> false
 		) );
 	}
 endif;
