@@ -1120,10 +1120,11 @@ input[type=search].search-field {
 }
 
 #site-navigation {	
-	position: fixed; /*absolute*/
+	position: absolute;
 	top: 0;
 }
 
 .site-branding {
+	margin-top: 9%;
 	text-align: center;
 }
