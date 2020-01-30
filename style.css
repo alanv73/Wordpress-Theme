@@ -1120,7 +1120,7 @@ input[type=search].search-field {
 }
 
 #site-navigation {	
-	position: absolute;
+	position: fixed; /*absolute*/
 	top: 0;
 }
 
