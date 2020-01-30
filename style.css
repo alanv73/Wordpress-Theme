@@ -1084,3 +1084,23 @@ input[type=search].search-field {
 /*--------------------------------------------------------------
 ## site header
 --------------------------------------------------------------*/
+.nav-menu li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#masthead {
+	position: relative;
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	z-index: 1;
+}
+
+#site-header {
+	position: absolute;
+	top: 0;
+}
+
+#content {
+	position: relative;
+}
