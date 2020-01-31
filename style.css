@@ -1149,12 +1149,12 @@ input[type=search].search-field {
 
 @media screen and (min-width: 1130px) {
 	#header-content {
-		height: 44vh;
+		height: 49vh;
 	}
 }
 
 @media screen and (min-width: 1180px) {
 	#header-content {
-		height: 54vh;
+		height: 57vh;
 	}
 }
