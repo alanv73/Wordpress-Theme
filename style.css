@@ -1164,3 +1164,9 @@ input[type=search].search-field {
 		height: 60vh;
 	}
 }
+
+@media screen and (min-width: 1550px) {
+	#header-content {
+		height: 66vh;
+	}
+}
