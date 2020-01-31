@@ -1135,18 +1135,6 @@ input[type=search].search-field {
 	text-align: center;
 }
 
-/* @media screen and (max-width: 980px) {
-	#header-content {
-		height: 35vh;
-	}
-}
-
-@media screen and (min-width: 1180px) {
-	#header-content {
-		height: 50vh;
-	}
-} */
-
 @media screen and (max-width: 880px) {
 	#header-content {
 		height: 28vh;
@@ -1167,6 +1155,6 @@ input[type=search].search-field {
 
 @media screen and (min-width: 1180px) {
 	#header-content {
-		height: 50vh;
+		height: 54vh;
 	}
 }
