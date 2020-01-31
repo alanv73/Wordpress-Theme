@@ -1100,7 +1100,7 @@ input[type=search].search-field {
 #site-header {
 	position: absolute;
 	width: 100%;
-	filter: brightness(75%);
+	filter: brightness(0.4);
 	top: 0;
 }
 
