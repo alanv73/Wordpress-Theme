@@ -1099,8 +1099,13 @@ input[type=search].search-field {
 
 #site-header {
 	position: absolute;
+	width: 100%;
 	filter: brightness(75%);
 	top: 0;
+}
+
+#site-header img {
+	width: 100%;
 }
 
 #header-content a {
@@ -1130,9 +1135,33 @@ input[type=search].search-field {
 	text-align: center;
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
 	#header-content {
 		height: 35vh;
+	}
+}
+
+@media screen and (min-width: 1180px) {
+	#header-content {
+		height: 50vh;
+	}
+} */
+
+@media screen and (max-width: 880px) {
+	#header-content {
+		height: 28vh;
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	#header-content {
+		height: 35vh;
+	}
+}
+
+@media screen and (min-width: 1130px) {
+	#header-content {
+		height: 40vh;
 	}
 }
 
