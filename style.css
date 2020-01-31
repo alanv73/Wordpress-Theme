@@ -1121,6 +1121,7 @@ input[type=search].search-field {
 
 #site-navigation {	
 	position: absolute;
+	top: 0;
 	z-index: 100000;
 }
 
