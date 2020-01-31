@@ -1155,6 +1155,6 @@ input[type=search].search-field {
 
 @media screen and (min-width: 1180px) {
 	#header-content {
-		height: 60vh;
+		height: 56vh;
 	}
 }
