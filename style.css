@@ -1155,13 +1155,13 @@ input[type=search].search-field {
 
 @media screen and (min-width: 1080px) {
 	#header-content {
-		height: 37vh;
+		height: 39vh;
 	}
 }
 
 @media screen and (min-width: 1130px) {
 	#header-content {
-		height: 42vh;
+		height: 44vh;
 	}
 }
 
