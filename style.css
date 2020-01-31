@@ -1158,3 +1158,9 @@ input[type=search].search-field {
 		height: 54vh;
 	}
 }
+
+@media screen and (min-width: 1400px) {
+	#header-content {
+		height: 60vh;
+	}
+}
